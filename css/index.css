@@ -1,0 +1,166 @@
+/*لو كنت عايز استدعي class ف هدوس . واسم الكلاس 
+لو عايز استدعي اسم فعلي بكتب اسمه ولو id بكتب # واسم الايدي */
+/*
+color
+width الحجم 
+background-color 
+Postion-fixed - بيثبت الشيء اللي هعطيله الامر دا بحيث لما اعمل سكرول ميختفيش 
+z-index - عشان تخلي العنصر اللي اعطيته الامر دا يغطي على اي حاجه وانت بتعمل سكرول
+display-flex 
+justify-content: space-between; - بتخلي في مسافه بين الاشياء 
+align-items: center - عشان تخلي العناصر ف نص الصفحه من فوق مش في نص الصفحه يمين او يسار 
+text-decoration: none; عشان تشيل الخط من تحت الكلام 
+text-transform: uppercase; - عشان اخلي الحروف كلها كابيتل حتى لو انا مش عاملها كابتل ف الكتابه 
+font-weight - عشان تخلي الخط كبير قد م انت عايز
+font-size - حجم الخط 
+ a:hover - عشان لما اشاور عالحاجه يغير لونها او يعمل اللي انا عاوزو 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+.head {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 1.4em;
+    color: white;
+}
+.navigation a{
+    padding-left: 30px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition:0.7s ease;
+    color: white;
+}
+.navigation a:hover{
+    color: rgb(175, 99, 0);
+}
+.video {
+    padding-left:400px;
+    padding-top: 50px;
+}
+.h2 {
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 50px;
+
+}
+.camry {
+    padding-top: 25px;
+    text-align: center;
+    height: 30px;
+}
+.info {
+    padding-top: 47em;
+    padding-left: 350px;
+}
+.info2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+.hr {  
+    margin-top: 40px;
+    margin-left: 20.5em;
+    width: 65%;
+} 
+.prime {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 650;
+}
+.toyota2 {
+    padding-top: 30px;
+    border:2px solid gray;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-evenly; 
+    margin: 15px;
+}
+.m2022 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.Lim {
+   font-size: 18px;
+   font-weight: 600;
+}
+.pric {
+    font-size: 18px;
+}
+.li {
+    font-size: 13px;
+}
+.buy {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 20px;
+    transition: 0.7s ease;
+}
+.buy:hover {
+    border: 3px solid rgb(212, 35, 35);
+    background-color: rgb(212, 35, 35);
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+.buy1 {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 15px;
+    transition: 0.9s ease;
+}
+.buy1:hover {
+    font-size: 22px;
+    border: 1px solid rgb(64, 221, 221);
+    background-color: rgb(64, 221, 221);
+    color: rgb(255, 255, 255);
+}
+.footer {
+    background-color: rgba(39, 59, 92, 0.863);
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.h21 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-weight: 700;
+}
+.hr2 {
+    width:27%;
+    margin-left: 37%;
+    margin-top: 20px;
+}
+.fo2 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" /> <!--دا عشان الصفحه تقبل الحروف العربيه -->
+        <title>Car-Store</title> <!--دا العنوان بتاع الصفحه-->
+        <meta name="discription" content="This is Car store" /> <!--الوصف بتاع الموقع في المتصفح برا-->
+        <link rel="stylesheet" href="./css/index.css"/>
+    </head>
+    <body> <!--دا الكلام اللي جوا الصفحه-->
+        <!--
+            B => Bold >> كبير
+            strong => important text
+            i => italic >> نص مائل
+            em => نص مائل 
+            mark => علامه مهمه
+            u => Underlined
+            small => smaller text
+            del => Deleted Text
+            ins => توضيح لانك أضفت شيء جديد 
+            sub => Subscript > تنزل كلمه او رقم تحت كلمه 
+            sup => Superscript > تطلع كلمه او رقم فوق كلمه 
+            a => عشان تحط لينك 
+            <a href="# Id اللي حطيته تحت " title="العنوان " target="">العنوان </a> دا عشان ننتقل لكلمه معينه في نفس الصفحه 
+            <a href="mailto:الأيميل اللي انت عايزو " title="العنوان " target="">العنوان</a> عشان توديه ل ايميل 
+            img => عشان تحط صوره 
+            span => عشان اعملها بين اي كلمه انا عايزها عشان اقدر اتعامل معاها لوحدها في ال css 
+            br => new line عشان تحط كلمه تحت كلمه 
+            hr => عشان تحط خط ما بين حاجتين 
+            div => container مكمل للشيء 
+            class => لتميز عنصر عن عنصر عشان تشتغل عليه في css
+            &copy; => copyrights
+            nav => navigation bar 
+            aside => side bar 
+            article =>  Article 
+            main => Main
+            footer => the end of the bage 
+            form => 
+        -->
+    <header> <!-- هنا شيء بيظهر في رأس الصفحه -->
+     <a href="">
+        <B class="head">Welcome To Mark Motors</B>
+     </a>
+     <nav class="navigation"> <!--هنا شيء بيظهر في رأس الصفحه برضو بس في جانب اخر -->
+        <a href="./index.html">Home</a>
+        <a href="#prime">Services</a>
+        <a href="#About">About</a>
+      </nav>
+    </header>
+    <video pause width="1500" height="600" loop autoplay muted class="video">
+        <source src="./2023 Toyota Camry Overview _ Toyota.mp4" type="video/mp4" >
+      </video>
+    <br>
+    <section>
+        <p class="h2"> 
+        Explore All Vehicles 
+            <br>
+        </p>
+        </div>
+        <div class="camry">
+            <img src="./2020-Toyota-Camry_TRD-specs-Falmouth_Toyota.webp" alt="">
+        </div>
+        <br>  
+        <div class="info">
+            <B>
+                <h2 class="info2">
+                    Hybrid Performance
+                </h2>
+            </B>
+            <p>
+                The powerful, stylish 2022 Camry Hybrid gives up nothing with its optimized fuel <br> economy, * advanced tech and stirring drive. We have expanded our hybrid battery <br> warranty to reflect our confidence in the quality, dependability and reliability of our <br> products. From the 2020 model year forward, every Toyota hybrid battery warranty <br> will cover 10 years from date of first use or 150,000 miles, whichever comes first <br> (previously 8 years or 100,000 miles). *
+            </p>
+        </div>  
+    </section>
+    <hr class="hr">
+    <br>
+    <section>
+       <h2 class="prime" id="prime">
+        Find Your Prius Prime
+    </h2>
+    </section>
+    <section class="sec1">
+              <div class="toyota2">
+                <div>
+                    <img src="./JUni.jpg" width="370" height="150">
+                    <p class="m2022">
+                      2022
+                  </p>
+                  <p class="Lim">
+                      XLE
+                  </p>
+                  <p class="pric">
+                      $47000
+                  </p>
+                  <p>
+                      <ul class="li">
+                          <li >
+                              11.6-in. touchscreen audio with six speakers
+                          </li>
+                          <li>
+                              Qi-compatible wireless smartphone charging * 
+                          </li>
+                          <li>
+                              SofTex®-trimmed * heated front seats
+                          </li>
+                      </ul>
+                      <a href="https://www.toyota.com/camry/" target="_blank" class="buy1">  Buy Now  </a>
+                  </p>
+              </div>
+              <div>
+                <p class="img">
+                    <img src="./toyota.png" alt="" width="370" height="150">
+                </p>
+                <p class="m2022">2022</p>
+                <p class="Lim">
+                    Limited
+                </p>
+                <p class="pric">
+                    $29,000
+                    
+                </p>
+                <p>
+                    <ul class="li">
+                        <li>
+                            Color Head-Up Display (HUD)
+                        </li>
+                        <li >
+                        Blind Spot Monitor (BSM) * with Rear Cross-Traffic Alert (RCTA) *
+                        </li>
+                        <li >
+                            Integrated LED fog lights
+                        </li>
+                    </ul>
+                    <a href="https://www.toyota.com/camry/" target="_blank" class="buy">Buy Now</a>
+                </p>
+              </div>
+              </div>
+        </section>
+        <br>
+        <footer>
+            <div class="footer">
+                <p class="h21">
+                    What are you looking for?
+                </p>
+                <hr class="hr2">
+                <br>
+                <div  class="foot">
+                    <div class="fo2" id="About">
+                        <li>
+                            <a href="https://www.toyota.com/sequoia/" target="_blank" class="fo2">
+                                Buy A car
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.carstore.com/sell-your-car/" class="fo2" target="_blank">
+                                Sell your car
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.carstore.com/advice/buying/finance/" class="fo2" target="_blank">
+                                Car finance
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.carstore.com/cars/" class="fo2" target="_blank">
+                                Used cars
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.carstore.com/cars/reviews/" class="fo2" target="_blank">
+                                Car reviews
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.carstore.com/car-care/care-plan/" class="fo2" target="_blank">
+                                Care plan
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.carstore.com/advice/" class="fo2" target="_blank">
+                                Advice
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.carstore.com/about/knowledge-base/" class="fo2" target="_blank">
+                                Help
+                            </a>
+                        </li>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p class="f1">
+                    &copy; 2022.All rights reserved
+                </p>
+            </div>
+        </footer>
+            
+            <!--
+                    ul => Un Orderd List 
+            li => list Items
+            reversed => يعكس الترقيم 
+            start => يبدأ من 
+            ol type="اللغه اللي انا عاوزها "
+            dl => Description List 
+            dt => Term
+            dd => Description Term
+     TABLE
+            Table => الجدول 
+            thead => الجزء العلوي من الجدول  
+            tr => صفوف الجدول 
+            td => العناصر فالجدول
+            tbody => معلومات الجدول 
+            th => Table Header cell
+            caption => Title of The Table
+        -->
+
+        </body>
+</html>
